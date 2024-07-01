@@ -13,7 +13,7 @@ if( isset($_POST['admin_email'])) {
 
     $token = '$2y$10$o6Xe3vHzRw2/556Q3Mb1T.yTtKEb0RXODxv1qyRFG8w6jqVmAkC5O';
 
-    if ($admin_email == 'rommel66699@gmail.com' && $admin_pass == '031096aB') {
+    if ($admin_email == 'email' && $admin_pass == 'password') {
         session_start();
         $_SESSION['user'] = 'admin';
         $_SESSION['message'] = 'Welcome home samurai!';
